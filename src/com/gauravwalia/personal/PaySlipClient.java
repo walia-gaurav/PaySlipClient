@@ -15,6 +15,8 @@ public class PaySlipClient {
 				.println(client
 						.getHTML("https://www.hrworkwaysindia.com/ServletController?cuen=null&cboPeriod=38%5E5%26NAG1%232015-2016%40May+2015&pwdFlag=E&jspName=PaySlipSelectPdf"));
 		System.out.println("Response generated");
+		System.out.println("Response generated");
+
 	}
 
 	public String getHTML(String urlToRead) {
